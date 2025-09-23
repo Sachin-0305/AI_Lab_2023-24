@@ -37,4 +37,28 @@ hypothesis(Patient, chicken_pox) :-
 symptom(Patient, fever),
 symptom(Patient, chills),
 symptom(Patient, body_ache),
+symptom(Patient, rash).
+hypothesis(Patient, measles) :-
+symptom(Patient, cough),
+symptom(Patient, sneezing),
+symptom(Patient, runny_nose).
+symptom(raju, headache).
+symptom(raju, sneezing).
+symptom(raju, sore_throat).
+```
 
+
+
+
+
+
+
+
+
+### Output:
+![image](https://github.com/Rajithxx/AI_Lab_2023-24/assets/148357145/e80e11c4-d713-4954-b2c4-4565ca6c5623)
+
+
+
+### Result:
+Thus the simple medical diagnosis system was built sucessfully.
